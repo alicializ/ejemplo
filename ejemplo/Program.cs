@@ -14,12 +14,10 @@ namespace ejemplo
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
-			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
+			Console.WriteLine("numero1: ");
+			int num1=int.Parse(Console.ReadLine());
+			Console.WriteLine("numero2: ");
+			int num2=int.Parse(Console.ReadLine());
 		}
 	}
 }
