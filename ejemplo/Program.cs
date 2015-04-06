@@ -18,6 +18,10 @@ namespace ejemplo
 			int num1=int.Parse(Console.ReadLine());
 			Console.WriteLine("numero2: ");
 			int num2=int.Parse(Console.ReadLine());
+			
+			int resultado= num1+num2;
+			Console.WriteLine("resultado: "+resultado);
+			Console.ReadLine();
 		}
 	}
 }
